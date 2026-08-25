@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "StudioContent": {
+      "fields": {
+        "id": { "type": "string", "description": "Document ID" },
+        "hero": { "type": "map", "description": "Hero section texts and image" },
+        "manifesto": { "type": "map", "description": "Manifesto and brand philosophy" },
+        "studioInfo": { "type": "map", "description": "Studio contact, WhatsApp, schedule and location" },
+        "themeSettings": { "type": "map", "description": "Visual theme and banner settings" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp of last update" }
+      }
+    },
+    "Service": {
+      "fields": {
+        "id": { "type": "string", "description": "Service unique identifier" },
+        "name": { "type": "string", "description": "Service name" },
+        "category": { "type": "string", "description": "lashes, brows, combos, care" },
+        "shortDescription": { "type": "string", "description": "Short description" },
+        "fullDescription": { "type": "string", "description": "Full description" },
+        "duration": { "type": "string", "description": "Estimated duration" },
+        "price": { "type": "number", "description": "Price in local currency" },
+        "popular": { "type": "boolean", "description": "Highlighted service" },
+        "tag": { "type": "string", "description": "Badge tag text" },
+        "image": { "type": "string", "description": "Image URL or data URI" },
+        "included": { "type": "array", "description": "List of inclusions" },
+        "idealFor": { "type": "string", "description": "Ideal client description" },
+        "retouchTime": { "type": "string", "description": "Recommended retouch frequency" }
+      }
+    },
+    "GalleryItem": {
+      "fields": {
+        "id": { "type": "string", "description": "Gallery item ID" },
+        "title": { "type": "string", "description": "Title of the work" },
+        "service": { "type": "string", "description": "Associated service" },
+        "description": { "type": "string", "description": "Description of result" },
+        "beforeImage": { "type": "string", "description": "Before image URL or data URI" },
+        "afterImage": { "type": "string", "description": "After image URL or data URI" },
+        "tag": { "type": "string", "description": "Badge tag" }
+      }
+    },
+    "LookbookPhoto": {
+      "fields": {
+        "id": { "type": "string", "description": "Photo ID" },
+        "url": { "type": "string", "description": "Image URL or data URI" },
+        "title": { "type": "string", "description": "Photo title" },
+        "category": { "type": "string", "description": "Category name" }
+      }
+    }
+  }
+}

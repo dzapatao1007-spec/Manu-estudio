@@ -1,0 +1,6 @@
+{
+  "name": "MANU STUDIO - Cejas & Pestañas",
+  "description": "Sitio web oficial de MANU STUDIO. Especialistas en diseño de cejas, pestañas pelo a pelo, lifting de pestañas y laminado de cejas con estilo femenino, minimalista y elegante.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
